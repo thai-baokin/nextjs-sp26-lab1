@@ -44,7 +44,7 @@ export default function LoginPage() {
             <Label htmlFor="password">Passwork</Label>
             <Input id="password" type="password" placeholder="Enter your passwork" className="py-5" />
           </div>
-          y
+
           <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-6 text-lg font-bold mt-2">
             Continue
           </Button>
@@ -54,8 +54,6 @@ export default function LoginPage() {
           <p>Already have an account? <Link href="#" className="text-indigo-600 font-bold">Login</Link></p>
         </div>
       </div>
-
-
     </div>
   )
 }
